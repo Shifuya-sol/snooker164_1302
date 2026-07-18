@@ -8,7 +8,7 @@ public enum BallColor
         Green,
         Brown,
         Blue,
-        Pinl,
+        Pink,
         Black
 }
 
