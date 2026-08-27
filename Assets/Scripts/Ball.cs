@@ -18,9 +18,11 @@ public class Ball : MonoBehaviour,IPointerClickHandler
 {
     [SerializeField]
     private int point;
+    public int Point {  get { return point; }  set  { point = value; } } 
 
     [SerializeField]
     private BallColor color;
+    public BallColor Color { get { return color; } }
 
     [SerializeField]
     private MeshRenderer rd; 
