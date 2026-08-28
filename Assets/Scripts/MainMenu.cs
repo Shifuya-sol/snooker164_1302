@@ -19,6 +19,12 @@ public class MainMenu : MonoBehaviour
 
     public void StartNewGame()
     {
+        Settings.fromSave = false;
+        SceneManager.LoadScene("Loading");
+    }
+    public void LoadSaveGame()
+    {
+        Settings.fromSave = true;
         SceneManager.LoadScene("Loading");
     }
 
