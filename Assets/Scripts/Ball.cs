@@ -22,8 +22,7 @@ public class Ball : MonoBehaviour,IPointerClickHandler
 
     [SerializeField]
     private BallColor color;
-    public BallColor Color { get { return color; } }
-
+    
     [SerializeField]
     private MeshRenderer rd; 
 
